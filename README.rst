@@ -5,6 +5,7 @@ Concept3D Notes
 ---------------
 We use this lambda to clear out space when Tour Builder updates cause us to run out of Lambda Memory (75G currently).
 We run this function locally. To update TB in us-west-1 run 
+
 .. code-block:: bash
 
     python clear_lambda_storage.py --num-to-keep 4 --regions 'us-west-1'
